@@ -1,0 +1,80 @@
+baseUrl = "https://fpga.acsl.my.id/"
+title = 'ACSL | Field Programmable Gate Array'
+
+# -------------------------------------------------------------------
+# Module (tema & dependensi)
+# -------------------------------------------------------------------
+[module]
+  [module.hugoVersion]
+    extended = true
+    min = "0.140.0"
+
+  [[module.imports]]
+    path = "github.com/colinwilson/lotusdocs"
+    disable = false
+
+  [[module.imports]]
+    path = "github.com/gohugoio/hugo-mod-bootstrap-scss/v5"
+    disable = false
+
+# -------------------------------------------------------------------
+# Parameter utama untuk docs
+# -------------------------------------------------------------------
+[params.docs]
+  title = "ACSL Docs"
+  darkMode = true
+  themeColor = "green"
+  favicon = "/images/favicon.png"
+  titleIcon = true
+  sidebarIcons = true
+  breadcrumbs = true
+  toc = true
+  tocMobile = true
+  scrollSpy = true
+  backToTop = true
+  descriptions = true
+  navDesc = true
+  navDescTrunc = 30
+  listDescTrunc = 100
+  prism = true
+  prismTheme = "lotusdocs"
+
+# -------------------------------------------------------------------
+# Parameter global
+# -------------------------------------------------------------------
+[params]
+  logo = "/images/logo2.svg"
+  math = true   # 
+
+# -------------------------------------------------------------------
+# Footer Configuration
+# -------------------------------------------------------------------
+[params.footer]
+  copyright = "© :YEAR: [Advanced Computer System Laboratory](https://gunadarma.ac.id). Built with [LotusDocs](https://github.com/colinwilson/lotusdocs)"
+
+# -------------------------------------------------------------------
+# Social Media & Contact
+# -------------------------------------------------------------------
+[params.social]
+  github = "Advanced-Computer-System-Laboratory"
+  instagram = "labacsl_ug"
+  email = "info@gunadarma.ac.id"
+  website = "https://gunadarma.ac.id"
+
+# -------------------------------------------------------------------
+# Menu utama
+# -------------------------------------------------------------------
+[menu]
+  [[menu.primary]]
+    name  = "Docs"
+    url = "docs/"
+    identifier = "docs"
+    weight = 10
+
+# -------------------------------------------------------------------
+# Markdown renderer
+# -------------------------------------------------------------------
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true   # wajib untuk render HTML dan KaTeX

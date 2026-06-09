@@ -1,0 +1,142 @@
+# Note: Template blocks require a 'weight' parameter so they're correctly ordered on the landing page
+
+# Hero
+hero:
+  enable: true
+  weight: 10
+  template: hero
+
+  backgroundImage:
+    path: "images/templates/hero"
+    filename:
+      desktop: "gradient-web.webp"
+      mobile: "gradient-web.webp"
+
+  badge:
+    text: build v12.5.2025
+    color: primary # primary, secondary, success, danger, warning, info, light, dark
+    pill: false # boolean
+    soft: true # boolean
+
+  titleLogo:
+    path: "images/logos"
+    filename: "logo.svg"
+    alt: "Lotus Docs Logo"
+    height: 80px
+
+  title: "ACSL Docs"
+  subtitle: Selamat datang di situs dokumentasi **Field Programmable Gate Array** Advanced Computer System Laboratory Universitas Gunadarma. Panduan ini dirancang untuk membantu mahasiswa dalam **memahami gerbang-gerbang logika**.
+  image:
+    path: "images" # path to image under configured assets directory. default 'images'
+    filename: "lotus_docs_screenshot.png" # filename of your hero image (including file extension)
+    alt: "Lotus Docs Screenshot" # Optional but recommended
+    boxShadow: true # default 'false' (excludes .svg images)
+    rounded: true # round the image corners? default 'false' (excludes .svg images)
+
+  ctaButton:
+    icon: rocket_launch
+    btnText: "Get Started"
+    url: "/docs/"
+  cta2Button:
+    icon: construction
+    btnText: "In Development"
+    url: "https://github.com/colinwilson/lotusdocs"
+
+  info: "**Copyright** @2025 Advanced Computer System Laboratory."
+
+# Feature Grid
+featureGrid:
+  enable: true
+  weight: 20
+  template: feature grid
+
+  title: Kenapa Harus di Web Modulnya?
+  subtitle: Zaman terus berkembang, begitu juga cara kita belajar. Modul berbasis web menawarkan cara baru yang lebih praktis, dinamis, dan sesuai kebutuhan masa kini. Yuk, kenali keunggulannya!
+
+  items:
+    - title: Kecepatan Akses
+      icon: speed
+      description: Kecepatan Akses Dengan infrastruktur web yang baik, akses ke informasi lebih cepat dibandingkan mengunduh dan membuka file PDF yang besar.
+
+    - title: Real-Time Updates
+      icon: update
+      description: Dokumentasi di web dapat diperbarui secara langsung dan instan, memastikan pengguna selalu mendapatkan informasi terbaru.
+
+    - title: Komentar dan Feedback
+      icon: comment
+      description: Pengguna dapat memberikan komentar dan feedback langsung pada halaman dokumentasi, memungkinkan interaksi dan diskusi yang konstruktif.
+
+    - title: Kompatibilitas Perangkat
+      icon: devices_other
+      description: Dokumentasi web dapat diakses dari berbagai perangkat, termasuk smartphone, tablet, dan komputer, tanpa perlu perangkat lunak tambahan.
+
+    - title: Tidak Perlu Disimpan
+      icon: file_download_off
+      description: Mengakses dokumentasi di web tidak memerlukan ruang penyimpanan tambahan di perangkat pengguna.
+
+    - title: Kustomisasi Tampilan
+      icon: tune
+      description: "Prefer not to be blasted by the sun while reading? Switch to a low-light UI with the click of a button. Modify colour variables to match your branding."
+
+    - title: Ditemukan di Mesin Pencari
+      icon: search
+      description: Konten web dapat dioptimalkan untuk mesin pencari (SEO), meningkatkan visibilitas dan memudahkan pengguna menemukan dokumentasi melalui pencarian online.
+
+    - title: Dibangun dengan Hugo
+      icon: handyman
+      description: Hugo adalah generator situs statis yang cepat dan modern, ditulis dalam bahasa pemrograman Go. Hugo membantu membuat situs web dengan cepat.
+
+    - title: Bootstrap v5
+      icon: palette
+      description: Dibangun dengan Bootstrap 5, Lotus Docs akan menjadikan pengalaman pengembang yang familiar, fleksibel, dan intuitif.
+
+# Image compare
+imageCompare:
+  enable: true
+  weight: 30
+  template: image compare
+
+  title: Customise The Lotus Docs Appearance
+  subtitle: Much of Lotus Docs' appearance can be customised. Dark mode is optional (enabled by default) and you can choose a Google font that suites you via the config parameters.
+
+  items:
+    - title: Dark Mode
+      config:
+        {
+          startingPoint: 50,
+          addCircle: true,
+          addCircleBlur: false,
+          showLabels: true,
+          labelOptions: { before: "Dark", after: "Light", onHover: false },
+        }
+      imagePath: "images/screenshots"
+      imageBefore: "lotusdocs_dark_v0.8.webp"
+      imageAfter: "lotusdocs_light_v0.8.webp"
+
+    - title: Custom Fonts
+      config:
+        {
+          controlColor: "18D66C",
+          startingPoint: 25,
+          addCircle: true,
+          addCircleBlur: false,
+          showLabels: true,
+          labelOptions:
+            { before: "Inter", after: "Life Saver", onHover: false },
+        }
+      imagePath: "images/screenshots"
+      imageBefore: "lotusdocs_google_font_demo_inter_screenshot.webp"
+      imageAfter: "lotusdocs_google_font_demo_lifesavers_screenshot.webp"
+
+    - title: Accent Color
+      config:
+        {
+          startingPoint: 25,
+          addCircle: true,
+          addCircleBlur: true,
+          showLabels: true,
+          labelOptions: { before: "Blue", after: "Cardinal", onHover: false },
+        }
+      imagePath: "images/screenshots"
+      imageBefore: "lotusdocs_blue_theme_colour.webp"
+      imageAfter: "lotusdocs_cardinal_theme_colour.webp"
