@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tutorial Bab 2 on ACSL | Field Programmable Gate Array</title>
-    <link>http://localhost:1313/docs/babtwo/</link>
+    <link>https://fpga.acsl.my.id/docs/babtwo/</link>
     <description>Recent content in Tutorial Bab 2 on ACSL | Field Programmable Gate Array</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Sat, 13 Sep 2025 16:48:46 +0700</lastBuildDate>
-    <atom:link href="http://localhost:1313/docs/babtwo/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://fpga.acsl.my.id/docs/babtwo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tipe Data</title>
-      <link>http://localhost:1313/docs/babtwo/definisitipedata/</link>
+      <link>https://fpga.acsl.my.id/docs/babtwo/definisitipedata/</link>
       <pubDate>Sat, 13 Sep 2025 16:48:46 +0700</pubDate>
-      <guid>http://localhost:1313/docs/babtwo/definisitipedata/</guid>
+      <guid>https://fpga.acsl.my.id/docs/babtwo/definisitipedata/</guid>
       <description>&lt;p&gt;Pada bab ini, praktikan akan mempelajari konsep dasar architecture dalam VHDL, yang digunakan untuk mendeskripsikan perilaku internal dari sebuah entity. Praktikan akan mempelajari cara membuat architecture sederhana dan bagaimana architecture berfungsi dalam merancang desain yang lebih besar dan kompleks. Asisten praktikum atau praktikan diharapkan membaca tujuan dan persyaratan bab ini agar praktikum dapat berjalan sesuai prosedur.&lt;/p&gt;&#xA;&lt;h2 id=&#34;tujuan&#34;&gt;Tujuan &lt;a href=&#34;#tujuan&#34; class=&#34;anchor&#34; aria-hidden=&#34;true&#34;&gt;&lt;i class=&#34;material-icons align-middle&#34;&gt;link&lt;/i&gt;&lt;/a&gt;&lt;/h2&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;table class=&#34;table table-striped&#34;&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;&lt;strong&gt;TUJUAN&lt;/strong&gt;&lt;/th&gt;&#xA;          &lt;th&gt;&lt;strong&gt;PENJELASAN&lt;/strong&gt;&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;&lt;strong&gt;Mengenal tipe data pada VHDL&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td&gt;&lt;p style=&#34;text-align: justify;&gt;&#34;&gt;Praktikan diharapkan dapat memahami berbagai tipe data yang tersedia dalam VHDL, seperti std_logic, bit, integer, dan boolean, serta bagaimana setiap tipe data berfungsi dalam mendesain&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;rangkaian digital.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Operator</title>
-      <link>http://localhost:1313/docs/babtwo/operator/</link>
+      <link>https://fpga.acsl.my.id/docs/babtwo/operator/</link>
       <pubDate>Sat, 13 Sep 2025 16:48:46 +0700</pubDate>
-      <guid>http://localhost:1313/docs/babtwo/operator/</guid>
+      <guid>https://fpga.acsl.my.id/docs/babtwo/operator/</guid>
       <description>&lt;h2 id=&#34;operator&#34;&gt;Operator &lt;a href=&#34;#operator&#34; class=&#34;anchor&#34; aria-hidden=&#34;true&#34;&gt;&lt;i class=&#34;material-icons align-middle&#34;&gt;link&lt;/i&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Operator dalam VHDL terdiri dari berbagai berbagai macam operator untuk melakukan operasi matematika, logika, dan perbandingan. Berikut adalah beberapa jenis operator yang umum digunakan dalam VHDL.&lt;/p&gt;&#xA;&lt;p&gt;&lt;span&gt;&lt;/span&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;operator-aritmatika&#34;&gt;Operator Aritmatika &lt;a href=&#34;#operator-aritmatika&#34; class=&#34;anchor&#34; aria-hidden=&#34;true&#34;&gt;&lt;i class=&#34;material-icons align-middle&#34;&gt;link&lt;/i&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Operator Aritmatika adalah operator yang digunakan untuk melakukan operasi perhitungan matematika pada data atau variabel, seperti penjumlahan, pengurangan, perkalian, pembagian dan sisa hasil bagi. Contoh operator aritmatika sebagai berikut:&lt;/p&gt;&#xA;&lt;ul&gt;&lt;li&gt;Penjumlahan : +&lt;/li&gt;&lt;/ul&gt;&#xD;&#xA;&lt;ul&gt;&lt;li&gt;Pengurangan : -&lt;/li&gt;&lt;/ul&gt;&#xD;&#xA;&lt;ul&gt;&lt;li&gt;Perkalian : *&lt;/li&gt;&lt;/ul&gt;&#xD;&#xA;&lt;ul&gt;&lt;li&gt;Pembagian : /&lt;/li&gt;&lt;/ul&gt;&#xD;&#xA;&lt;ul&gt;&lt;li&gt;Modulus : mod (menghasilkan sisa pembagian)&lt;/li&gt;&lt;/ul&gt;&#xD;&#xA;&lt;p&gt;&lt;span&gt;&lt;/span&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Array</title>
-      <link>http://localhost:1313/docs/babtwo/dataarray/</link>
+      <link>https://fpga.acsl.my.id/docs/babtwo/dataarray/</link>
       <pubDate>Sat, 13 Sep 2025 16:48:46 +0700</pubDate>
-      <guid>http://localhost:1313/docs/babtwo/dataarray/</guid>
+      <guid>https://fpga.acsl.my.id/docs/babtwo/dataarray/</guid>
       <description>&lt;h2 id=&#34;definisi-tipe-data-array&#34;&gt;Definisi tipe data Array &lt;a href=&#34;#definisi-tipe-data-array&#34; class=&#34;anchor&#34; aria-hidden=&#34;true&#34;&gt;&lt;i class=&#34;material-icons align-middle&#34;&gt;link&lt;/i&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Array adalah struktur data yang terdiri dari kumpulan elemen yang memiliki tipe data yang sama, disusun dalam urutan tertentu, dan diakses menggunakan indeks. Dalam konteks FPGA, array digunakan untuk menyimpan dan mengelola data secara efisien.&lt;/p&gt;&#xA;&lt;h2 id=&#34;jenis-array&#34;&gt;Jenis Array &lt;a href=&#34;#jenis-array&#34; class=&#34;anchor&#34; aria-hidden=&#34;true&#34;&gt;&lt;i class=&#34;material-icons align-middle&#34;&gt;link&lt;/i&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Terdapat 2 jenis array yang ditentukan dalam standar VHDL, yaitu:&lt;/p&gt;&#xA;&lt;h3 id=&#34;string&#34;&gt;String &lt;a href=&#34;#string&#34; class=&#34;anchor&#34; aria-hidden=&#34;true&#34;&gt;&lt;i class=&#34;material-icons align-middle&#34;&gt;link&lt;/i&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;merupakan karakter yang digunakan untuk menyimpan teks, seperti pesan atau data komunikasi.&lt;/p&gt;&#xA;&lt;p&gt;Variable MESSAGE : STRING (1 to 10) := &amp;ldquo;Acsl&amp;rdquo;;&lt;/p&gt;</description>
     </item>
   </channel>

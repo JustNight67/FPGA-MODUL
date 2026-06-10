@@ -42,7 +42,7 @@ hero:
     btnText: "In Development"
     url: "https://github.com/colinwilson/lotusdocs"
 
-  info: "**Copyright** @2025 Advanced Computer System Laboratory."
+  info: "**Copyright** @2026 Advanced Computer System Laboratory."
 
 # Feature Grid
 featureGrid:
@@ -96,8 +96,8 @@ imageCompare:
   weight: 30
   template: image compare
 
-  title: Customise The Lotus Docs Appearance
-  subtitle: Much of Lotus Docs' appearance can be customised. Dark mode is optional (enabled by default) and you can choose a Google font that suites you via the config parameters.
+  title: Tampilan Dark Mode
+  subtitle: Lebih suka tidak terkena sinar matahari saat membaca? Beralih ke UI dengan cahaya redup dengan mengklik tombol icon Dark Mode di pojok layar kanan atas anda.
 
   items:
     - title: Dark Mode
@@ -112,31 +112,3 @@ imageCompare:
       imagePath: "images/screenshots"
       imageBefore: "lotusdocs_dark_v0.8.webp"
       imageAfter: "lotusdocs_light_v0.8.webp"
-
-    - title: Custom Fonts
-      config:
-        {
-          controlColor: "18D66C",
-          startingPoint: 25,
-          addCircle: true,
-          addCircleBlur: false,
-          showLabels: true,
-          labelOptions:
-            { before: "Inter", after: "Life Saver", onHover: false },
-        }
-      imagePath: "images/screenshots"
-      imageBefore: "lotusdocs_google_font_demo_inter_screenshot.webp"
-      imageAfter: "lotusdocs_google_font_demo_lifesavers_screenshot.webp"
-
-    - title: Accent Color
-      config:
-        {
-          startingPoint: 25,
-          addCircle: true,
-          addCircleBlur: true,
-          showLabels: true,
-          labelOptions: { before: "Blue", after: "Cardinal", onHover: false },
-        }
-      imagePath: "images/screenshots"
-      imageBefore: "lotusdocs_blue_theme_colour.webp"
-      imageAfter: "lotusdocs_cardinal_theme_colour.webp"
