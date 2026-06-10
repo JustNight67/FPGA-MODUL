@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tutorial Bab 4 on ACSL | Field Programmable Gate Array</title>
+    <link>https://fpga.acsl.my.id/docs/babfour/</link>
+    <description>Recent content in Tutorial Bab 4 on ACSL | Field Programmable Gate Array</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 13 Oct 2025 12:24:40 +0700</lastBuildDate>
+    <atom:link href="https://fpga.acsl.my.id/docs/babfour/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>UART (Universal Asynchronous Receiver-Transmitter)</title>
+      <link>https://fpga.acsl.my.id/docs/babfour/uart/</link>
+      <pubDate>Mon, 13 Oct 2025 12:24:40 +0700</pubDate>
+      <guid>https://fpga.acsl.my.id/docs/babfour/uart/</guid>
+      <description>&lt;p&gt;Pada bab ini, praktikan akan mempelajari konsep dasar dan fungsi dari UART (Universal Asynchronous Receiver-Transmitter), yang merupakan komponen penting dalam komunikasi serial. Praktikan akan mempelajari cara kerja UART dan bagaimana mengimplementasikannya pada FPGA untuk mendeskripsikan proses transmisi dan penerimaan data secara asinkron. Selain itu, praktikan akan memahami peran FTDi chip dalam konversi sinyal USB ke sinyal serial. Asisten praktikum atau praktikan diharapkan membaca tujuan dan persyaratan bab ini agar praktikum dapat berjalan sesuai dengan prosedur.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>FTDI (Future Technology Devices International)</title>
+      <link>https://fpga.acsl.my.id/docs/babfour/ftdichip/</link>
+      <pubDate>Mon, 13 Oct 2025 12:24:40 +0700</pubDate>
+      <guid>https://fpga.acsl.my.id/docs/babfour/ftdichip/</guid>
+      <description>&lt;h2 id=&#34;ftdi-chip&#34;&gt;FTDI Chip &lt;a href=&#34;#ftdi-chip&#34; class=&#34;anchor&#34; aria-hidden=&#34;true&#34;&gt;&lt;i class=&#34;material-icons align-middle&#34;&gt;link&lt;/i&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;FTDI (Future Technology Devices International) adalah perusahaan yang memproduksi chip konverter USB-to-serial. Komunikasi UART tidak bisa diterapkan melalui jalur USB secara langsung tanpa menggunakan sebuah modul FTDI. Modul ini mengelola transaksi data dengan menerapkan protokol USB dari data yang ditransfer melalui serial asinkron. Ini memungkinkan perangkat modern dengan port USB untuk berkomunikasi dengan perangkat yang menggunakan antarmuka serial tradisional seperti RS-232, RS-485, atau TTL. Tanggung jawab perangkat ini adalah untuk memberitahu PC bahwa perangkat yang digunakan dengan menambahkan beberapa informasi identifikasi, sehingga PC dapat memuat driver yang tepat.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ASCII (American Standard Code for Information Interchange)</title>
+      <link>https://fpga.acsl.my.id/docs/babfour/ascii/</link>
+      <pubDate>Mon, 13 Oct 2025 12:24:40 +0700</pubDate>
+      <guid>https://fpga.acsl.my.id/docs/babfour/ascii/</guid>
+      <description>&lt;h2 id=&#34;ascii&#34;&gt;ASCII &lt;a href=&#34;#ascii&#34; class=&#34;anchor&#34; aria-hidden=&#34;true&#34;&gt;&lt;i class=&#34;material-icons align-middle&#34;&gt;link&lt;/i&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;ASCII (American Standard Code for Information Interchange) merupakan standar pengkodean karakter yang dikembangkan pada tahun 1960-an untuk memudahkan pertukaran informasi antar perangkat elektronik. ASCII menggunakan representasi bilangan biner untuk setiap huruf, angka, simbol, maupun karakter kontrol. Setiap karakter dalam ASCII direpresentasikan dengan&#xA;7 bit, sehingga mampu menampung 128 karakter (kode 0–127). Pada implementasi modern, ASCII biasanya disimpan dalam 8 bit (1 byte) dengan tambahan 1 bit yang tidak digunakan atau digunakan untuk memperluas tabel ke Extended ASCII (0–255).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>PuTTY</title>
+      <link>https://fpga.acsl.my.id/docs/babfour/putty/</link>
+      <pubDate>Mon, 13 Oct 2025 12:24:40 +0700</pubDate>
+      <guid>https://fpga.acsl.my.id/docs/babfour/putty/</guid>
+      <description>&lt;h2 id=&#34;putty&#34;&gt;PUTTY &lt;a href=&#34;#putty&#34; class=&#34;anchor&#34; aria-hidden=&#34;true&#34;&gt;&lt;i class=&#34;material-icons align-middle&#34;&gt;link&lt;/i&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;PuTTY adalah sebuah program open source yang dapat digunakan untuk melakukan protocol jaringan SSH, Telnet, Serial dan Rlogin. Protocol ini dapat digunakan untuk menjalankan sesi remote pada sebuah computer melalui sebuah jaringan baik itu LAN maupun internet. PuTTY pada awalnya dibuat untuk Microsoft Windows, tetapi telah mendukung berbagai system operasi lainnya. Aplikasi PuTTY digunakan ketika ingin mentransfer sebuah data dari computer ke sebuah perangkat lain.&lt;/p&gt;&#xA;&lt;p&gt;Pada Nexys A7, PuTTY dapat digunakan untuk menghubungkan komputer dengan FPGA melalui port UART. Dengan PuTTY, kita bisa mengirimkan dan menerima data secara langsung antara komputer dan board Nexys A7, misalnya untuk debugging atau mengontrol perangkat melalui antarmuka teks.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Sensor dan Pin Pmod</title>
+      <link>https://fpga.acsl.my.id/docs/babfour/sensorpinpmod/</link>
+      <pubDate>Mon, 13 Oct 2025 12:24:40 +0700</pubDate>
+      <guid>https://fpga.acsl.my.id/docs/babfour/sensorpinpmod/</guid>
+      <description>&lt;h2 id=&#34;sensor&#34;&gt;Sensor &lt;a href=&#34;#sensor&#34; class=&#34;anchor&#34; aria-hidden=&#34;true&#34;&gt;&lt;i class=&#34;material-icons align-middle&#34;&gt;link&lt;/i&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Nexys A7 menyediakan Pmod (Peripheral Module) sebagai antarmuka standar untuk menghubungkan modul eksternal, termasuk sensor. PMOD adalah konektor dengan format 2×6 pin (12 pin) yang memudahkan ekspansi board FPGA dengan berbagai perangkat tambahan Struktur dasar pin pada konektor Pmod adalah:&lt;/p&gt;&#xA;&lt;ul&gt;&lt;li&gt;&lt;b&gt;4 pin I/O&lt;/b&gt; (GPIO) yang dapat diprogram melalui FPGA.&lt;/li&gt;&lt;/ul&gt;&#xD;&#xA;&lt;ul&gt;&lt;li&gt;&lt;b&gt;2 pin GND&lt;/b&gt; sebagai ground referensi.&lt;/ul&gt;&lt;/li&gt;&#xD;&#xA;&lt;ul&gt;&lt;li&gt;&lt;b&gt;2 pin VCC&lt;/b&gt; (biasanya 3,3 V) sebagai catu daya untuk modul eksternal.&lt;/li&gt;&lt;/ul&gt;&#xD;&#xA;&lt;ul&gt;&lt;li&gt;Sisanya digunakan sebagai pin tambahan untuk I/O atau sinyal kontrol.&lt;/li&gt;&lt;/ul&gt;&#xD;&#xA;&lt;div class=&#34;d-flex justify-content-center w-60&#34;&gt;&#xD;&#xA;&lt;img src=&#34;https://fpga.acsl.my.id/images/babFour/Ba4-7.png&#34; alt=&#34;Gambar 4.7 - Pin Pmod Nexys A7&#34; class=&#34;img-fluid mb-3 responsive-img&#34;&gt;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;p style=&#34;text-align: center;&#34;&gt;&lt;b&gt;Gambar 4.7&lt;/b&gt; Pin Pmod Nexys A7&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

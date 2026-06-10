@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Beginners on ACSL | Field Programmable Gate Array</title>
+    <link>https://fpga.acsl.my.id/tags/beginners/</link>
+    <description>Recent content in Beginners on ACSL | Field Programmable Gate Array</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 03 May 2023 22:37:22 +0100</lastBuildDate>
+    <atom:link href="https://fpga.acsl.my.id/tags/beginners/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Field Programmable Gate Array</title>
+      <link>https://fpga.acsl.my.id/docs/</link>
+      <pubDate>Wed, 03 May 2023 22:37:22 +0100</pubDate>
+      <guid>https://fpga.acsl.my.id/docs/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
