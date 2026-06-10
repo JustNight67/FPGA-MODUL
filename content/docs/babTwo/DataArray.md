@@ -76,7 +76,7 @@ class="img-fluid mb-3 responsive-img">
 <span></span>
 
 <center>
-      <img src="/images/BabTwo/Batw-4.png" class="img-fluid mb-3 responsive-img">
+      <img src="/images/babTwo/Batw-4.png" class="img-fluid mb-3 responsive-img">
 </center>
 
 <div class="row">
@@ -86,7 +86,7 @@ class="img-fluid mb-3 responsive-img">
 <span></span>
 
 <center>
-      <img src="/images/BabTwo/Batw-5.png" class="img-fluid mb-3 responsive-img">
+      <img src="/images/babTwo/Batw-5.png" class="img-fluid mb-3 responsive-img">
 </center>
 
 <div class="row">
@@ -96,5 +96,5 @@ class="img-fluid mb-3 responsive-img">
 <span></span>
 
 <center>
-      <img src="/images/BabTwo/Batw-6.png" class="img-fluid mb-3 responsive-img">
+      <img src="/images/babTwo/Batw-6.png" class="img-fluid mb-3 responsive-img">
 </center></div>

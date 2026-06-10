@@ -32,7 +32,7 @@ toc: true
 <span></span>
 
 <center>
-      <img src="/images/BabOne/Bao-21.png" class="img-fluid mb-3 responsive-img">
+      <img src="/images/babOne/Bao-21.png" class="img-fluid mb-3 responsive-img">
 </center>
 
 <div class="row">
@@ -42,7 +42,7 @@ toc: true
 <span></span>
 
 <center>
-      <img src="/images/BabOne/Bao-23.png" class="img-fluid mb-3 responsive-img">
+      <img src="/images/babOne/Bao-23.png" class="img-fluid mb-3 responsive-img">
 </center>
 </div><br> 
 
@@ -66,7 +66,7 @@ toc: true
 <span></span>
 
 <center>
-      <img src="/images/BabOne/Bao-22.png" class="img-fluid mb-3 responsive-img">
+      <img src="/images/babOne/Bao-22.png" class="img-fluid mb-3 responsive-img">
 </center>
 
 <div class="row">
@@ -76,7 +76,7 @@ toc: true
 <span></span>
 
 <center>
-      <img src="/images/BabOne/Bao-24.png" class="img-fluid mb-3 responsive-img">
+      <img src="/images/babOne/Bao-24.png" class="img-fluid mb-3 responsive-img">
 </center>
 </div></br>
 
@@ -100,5 +100,5 @@ toc: true
 <span></span>
 
 <center>
-      <img src="/images/BabOne/Bao-25.png" class="img-fluid mb-3 responsive-img">
+      <img src="/images/babOne/Bao-25.png" class="img-fluid mb-3 responsive-img">
 </center>
