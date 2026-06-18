@@ -2,53 +2,53 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Briefing on ACSL | Field Programmable Gate Array</title>
-    <link>https://fpga.acsl.my.id/docs/briefing/</link>
+    <link>http://localhost:1313/docs/briefing/</link>
     <description>Recent content in Briefing on ACSL | Field Programmable Gate Array</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Fri, 15 May 2026 11:44:30 +0700</lastBuildDate>
-    <atom:link href="https://fpga.acsl.my.id/docs/briefing/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/docs/briefing/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Sejarah Field Programmable Gate Array</title>
-      <link>https://fpga.acsl.my.id/docs/briefing/sejarahfpga/</link>
+      <link>http://localhost:1313/docs/briefing/sejarahfpga/</link>
       <pubDate>Fri, 15 May 2026 11:44:30 +0700</pubDate>
-      <guid>https://fpga.acsl.my.id/docs/briefing/sejarahfpga/</guid>
+      <guid>http://localhost:1313/docs/briefing/sejarahfpga/</guid>
       <description>&lt;p&gt;Pada bab briefing ini, praktikan akan mempelajari tentang sejarah awal FPGA, konsep dasar dan cara kerja FPGA, konsep dasar gerbang logika, serta software dan hardware yang akan digunakan dalam praktikum FPGA. Asisten praktikum atau praktikan dapat membaca tujuan dan persyaratan praktikum bab ini agar praktikum dapat berjalan sesuai prosedur.&lt;/p&gt;&#xA;&lt;h2 id=&#34;tujuan&#34;&gt;Tujuan &lt;a href=&#34;#tujuan&#34; class=&#34;anchor&#34; aria-hidden=&#34;true&#34;&gt;&lt;i class=&#34;material-icons align-middle&#34;&gt;link&lt;/i&gt;&lt;/a&gt;&lt;/h2&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;table class=&#34;table table-striped&#34;&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;&lt;strong&gt;TUJUAN&lt;/strong&gt;&lt;/th&gt;&#xA;          &lt;th&gt;&lt;strong&gt;PENJELASAN&lt;/strong&gt;&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;&lt;strong&gt;Memahami sejarah perkembangan FPGA&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td&gt;&lt;p style=&#34;text-align: justify;&gt;&#34;&gt;Praktikan diharapkan dapat memahami sejarah awal perkembangan FPGA dan bagaimana teknologi ini berevolusi hingga digunakan secara luas saat ini.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Komponen Field Programmable Gate Array</title>
-      <link>https://fpga.acsl.my.id/docs/briefing/komponenfpga/</link>
+      <link>http://localhost:1313/docs/briefing/komponenfpga/</link>
       <pubDate>Fri, 15 May 2026 11:44:29 +0700</pubDate>
-      <guid>https://fpga.acsl.my.id/docs/briefing/komponenfpga/</guid>
+      <guid>http://localhost:1313/docs/briefing/komponenfpga/</guid>
       <description>&lt;p&gt;Bila dilihat dari namanya, (Field Programmable) dapat diartikan bahwa FPGA ini bersifat dapat dirancang sesuai dengan keinginan dan kebutuhan user atau pemakai. Sedangkan (Gate Array) artinya FPGA ini terdiri atas gerbang- gerbang digital dimana masing-masing dari gerbang tersebut dapat dikonfigurasikan antara satu sama lain. FPGA ini juga memiliki sifat volatile, yaitu sifat dimana apabila sumber dayanya dicabut maka program yang sudah ditanam sebelumnya akan hilang. Namun dibeberapa perangkat, sudah ada yang ditanamkan ROM untuk dapat menyimpan program yang sudah dibuat.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Cara Kerja FPGA</title>
-      <link>https://fpga.acsl.my.id/docs/briefing/carakerjafpga/</link>
+      <link>http://localhost:1313/docs/briefing/carakerjafpga/</link>
       <pubDate>Fri, 15 May 2026 11:44:28 +0700</pubDate>
-      <guid>https://fpga.acsl.my.id/docs/briefing/carakerjafpga/</guid>
+      <guid>http://localhost:1313/docs/briefing/carakerjafpga/</guid>
       <description>&lt;p&gt;FPGA tersusun dari logic block yang saling terhubung satu sama lain. Kumpulan-kumpulan dari logic block ini berjumlah ratusan bahkan ribuan sehingga membentuk suatu fungsi yang kompleks. Sebuah logic block pada dasarnya terdiri dari sebuah LUT (&lt;em&gt;Lookup Table&lt;/em&gt;), &lt;em&gt;Flip-Flop&lt;/em&gt;, dan &lt;em&gt;Multiplexer&lt;/em&gt;.&lt;/p&gt;&#xA;&lt;h2 id=&#34;lut-lookup-table&#34;&gt;LUT (Lookup Table) &lt;a href=&#34;#lut-lookup-table&#34; class=&#34;anchor&#34; aria-hidden=&#34;true&#34;&gt;&lt;i class=&#34;material-icons align-middle&#34;&gt;link&lt;/i&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;LUT atau Lookup Table merupakan sejenis RAM yang berkapasitas kecil. Pada FPGA, LUT ini memegang peran dalam proses implementasi fungsi-fungsi logika dan mempunyai ciri khas yaitu memiliki 4 masukan.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Software dan Hardware</title>
-      <link>https://fpga.acsl.my.id/docs/briefing/softwarehardwarefpga/</link>
+      <link>http://localhost:1313/docs/briefing/softwarehardwarefpga/</link>
       <pubDate>Fri, 15 May 2026 11:44:27 +0700</pubDate>
-      <guid>https://fpga.acsl.my.id/docs/briefing/softwarehardwarefpga/</guid>
+      <guid>http://localhost:1313/docs/briefing/softwarehardwarefpga/</guid>
       <description>&lt;h2 id=&#34;software&#34;&gt;Software &lt;a href=&#34;#software&#34; class=&#34;anchor&#34; aria-hidden=&#34;true&#34;&gt;&lt;i class=&#34;material-icons align-middle&#34;&gt;link&lt;/i&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Pada umumnya, perusahaan pembuat FPGA memberikan perangkat lunak secara gratis yang sudah termasuk kedalam paket pembelian produk mereka. Namun, software yang gratis ini hanya untuk jenis FPGA tingkat rendah- menengah saja, tetapi sudah cukup mendukung untuk digunakan dalam pembelajaran. Berikut beberapa software pendukung yang gratis :&lt;/p&gt;&#xA;&lt;p&gt;&lt;span class=&#34;&#34;&gt; &lt;/span&gt;&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Xilinx, terkenal dengan software miliknya yang bernama ISE Design Suite dan Vivado.&lt;/li&gt;&#xA;&lt;li&gt;Altera, terkenal dengan software miliknya yang bernama Quartus.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;xilinx&#34;&gt;Xilinx &lt;a href=&#34;#xilinx&#34; class=&#34;anchor&#34; aria-hidden=&#34;true&#34;&gt;&lt;i class=&#34;material-icons align-middle&#34;&gt;link&lt;/i&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Xilinx, Inc. adalah sebuah perusahaan teknologi asal Amerika yang terutama memasok perangkat logika terprogram. Perusahaan ini merupakan pencipta FPGA. Xilinx juga merupakan perusahaan semikonduktor yang menciptakan model manufaktur nirfabrikasi pertama. Didirikan bersama-sama oleh Ross Freeman, Bernard Vonderschmitt, dan James V Barnett II pada tahun 1984, perusahaan ini resmi melantai di NASDAQ pada tahun 1989. Pada bulan Oktober 2020, AMD mengumumkan akuisisi terhadap Xilinx. Akuisisi ini selesai pada tanggal 14 Februari 2022.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Hardware Description Language</title>
-      <link>https://fpga.acsl.my.id/docs/briefing/hardwaredescriptionlanguage/</link>
+      <link>http://localhost:1313/docs/briefing/hardwaredescriptionlanguage/</link>
       <pubDate>Fri, 15 May 2026 11:44:26 +0700</pubDate>
-      <guid>https://fpga.acsl.my.id/docs/briefing/hardwaredescriptionlanguage/</guid>
+      <guid>http://localhost:1313/docs/briefing/hardwaredescriptionlanguage/</guid>
       <description>&lt;h2 id=&#34;definisi-hdl-hardware-description-language&#34;&gt;Definisi HDL (Hardware Description Language) &lt;a href=&#34;#definisi-hdl-hardware-description-language&#34; class=&#34;anchor&#34; aria-hidden=&#34;true&#34;&gt;&lt;i class=&#34;material-icons align-middle&#34;&gt;link&lt;/i&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Salah satu metode untuk perancangan rangkaian adalah menggunakan HDL (Hardware Description Language). Nantinya, tiap-tiap komponen serta jalur yang menghubungkannya akan dideskripsikan lewat tulisan atau kode tertentu. Tiap vendor FPGA memiliki aturan mengenai penggunaan kode dalam hal implementasi di dalam FPGA. Namun, sejak sekitar 10 tahun lalu, telah muncul kode baru yang dapat diimplementasikan ke dalam semua jenis FPGA buatan vendor manapun. Kode baru tersebut ada 2 yakni Verilog dan VHDL. Baik verilog maupun VHDL ternyata lebih terkenal karena mudah dipahami dan dimengerti. Selanjutnya, dua kode ini kemudian menjadi acuan utama dalam proses implementasi rancangan rangkaian ke dalam FPGA (apapun jenis vendornya). Hingga saat ini, metode perancangan menggunakan HDL (baik verilog maupun VHDL) lebih banyak digunakan daripada metode schematic.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Jenis - Jenis Gerbang Logika</title>
-      <link>https://fpga.acsl.my.id/docs/briefing/jenisgerbanglogika/</link>
+      <link>http://localhost:1313/docs/briefing/jenisgerbanglogika/</link>
       <pubDate>Fri, 15 May 2026 11:44:25 +0700</pubDate>
-      <guid>https://fpga.acsl.my.id/docs/briefing/jenisgerbanglogika/</guid>
-      <description>&lt;h2 id=&#34;gerbang-and&#34;&gt;Gerbang AND &lt;a href=&#34;#gerbang-and&#34; class=&#34;anchor&#34; aria-hidden=&#34;true&#34;&gt;&lt;i class=&#34;material-icons align-middle&#34;&gt;link&lt;/i&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Gerbang AND adalah gerbang logika dasar yang melakukan perkalian logika berdasarkan dari input yang diterapkan padanya. Gerbang ini menghasilkan output HIGH atau bernilai 1, hanya ketika semua input atau masukan bernilai 1. Jika tidak, output gerbang AND akan memiliki nilai LOW atau 0.&lt;/p&gt;&#xA;&lt;div class=&#34;d-flex justify-content-center w-100&#34;&gt;&#xD;&#xA;&lt;img src=&#34;https://fpga.acsl.my.id/images/briefing/Bri-11.png&#34; alt=&#34;Gambar B.11 - Gerbang Logika AND&#34; class=&#34;img-fluid mb-3 responsive-img&#34;&gt;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;p style=&#34;text-align: center;&#34;&gt;&lt;b&gt;Gambar B.11&lt;/b&gt; Gerbang Logika AND&lt;/p&gt;&#xD;&#xA;&lt;p style=&#34;text-align: center;&#34;&gt;&lt;b&gt;Tabel B.4&lt;/b&gt; Truth Table AND&lt;/p&gt;&#xD;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;table class=&#34;table table-striped&#34;&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;&lt;p style=&#34;text-align: center;&#34;&gt;&lt;b&gt;A&lt;/b&gt;&lt;/p&gt;&lt;/th&gt;&#xA;          &lt;th&gt;&lt;p style=&#34;text-align: Center;&#34;&gt;&lt;b&gt;B&lt;/b&gt;&lt;/p&gt;</description>
+      <guid>http://localhost:1313/docs/briefing/jenisgerbanglogika/</guid>
+      <description>&lt;h2 id=&#34;gerbang-and&#34;&gt;Gerbang AND &lt;a href=&#34;#gerbang-and&#34; class=&#34;anchor&#34; aria-hidden=&#34;true&#34;&gt;&lt;i class=&#34;material-icons align-middle&#34;&gt;link&lt;/i&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Gerbang AND adalah gerbang logika dasar yang melakukan perkalian logika berdasarkan dari input yang diterapkan padanya. Gerbang ini menghasilkan output HIGH atau bernilai 1, hanya ketika semua input atau masukan bernilai 1. Jika tidak, output gerbang AND akan memiliki nilai LOW atau 0.&lt;/p&gt;&#xA;&lt;div class=&#34;d-flex justify-content-center w-100&#34;&gt;&#xD;&#xA;&lt;img src=&#34;http://localhost:1313/images/briefing/Bri-11.png&#34; alt=&#34;Gambar B.11 - Gerbang Logika AND&#34; class=&#34;img-fluid mb-3 responsive-img&#34;&gt;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;p style=&#34;text-align: center;&#34;&gt;&lt;b&gt;Gambar B.11&lt;/b&gt; Gerbang Logika AND&lt;/p&gt;&#xD;&#xA;&lt;p style=&#34;text-align: center;&#34;&gt;&lt;b&gt;Tabel B.4&lt;/b&gt; Truth Table AND&lt;/p&gt;&#xD;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;table class=&#34;table table-striped&#34;&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;&lt;p style=&#34;text-align: center;&#34;&gt;&lt;b&gt;A&lt;/b&gt;&lt;/p&gt;&lt;/th&gt;&#xA;          &lt;th&gt;&lt;p style=&#34;text-align: Center;&#34;&gt;&lt;b&gt;B&lt;/b&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
