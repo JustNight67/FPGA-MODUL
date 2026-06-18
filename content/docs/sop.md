@@ -72,7 +72,7 @@ Pada SOP ini, praktikan akan mempraktekan beebrapa bab pada website ini. Agar pr
 
 1. Praktikan **wajib mengerjakan Laporan Pendahuluan serta Laporan Akhir** sebagai syarat untuk mengikuti praktikum. Laporan pendahuluan dan Laporan Akhir tersebut harus diserahkan ke PJ _shift_ sebelum praktikum dimulai. Lebih dari itu Laporan Pendahuluan dan Laporan Akhir akan ditolak dan nilai akan dikosongkan.
 2. Modul Laporan dicetak menggunakan **kertas A4** dan diusahakan untuk mencetak warna dari halaman sampul hingga halaman akhir. Sampul depan modul dijilid menggunakan kertas mika dan sampul belakang dijilid menggunakan **kertas berwarna hijau muda**.
-3. Praktikan dapat **mendownload** file dokumen **Modul Laporan** yang berisikan Laporan Pendahuluan dan Laporan Akhir pada link disamping ini: [Download Modul Laporan](https://drive.google.com/drive/folders/1zX4ivm-5nIeSk5qRjtTs4m_EE-ftVGBa)
+3. Praktikan dapat **mendownload** file dokumen **Modul Laporan** yang berisikan Laporan Pendahuluan dan Laporan Akhir pada link disamping ini: [Download Modul Laporan](https://drive.google.com/drive/u/3/folders/1RJ7lB9p3Nt6MSWmFtWNFye-XymYkeB9h)
 4. Laporan Pendahuluan dan Akhir dikerjakan secara individu.
 5. Laporan pendahuluan dan Akhir dikerjakan menggunakan pulpen **(Note: Dapat Menggunakan tinta berwarna hitam atau biru)**.
 6. Apabila terjadi kesalahan dalam penulisan, maka cukup mencoret 1 kali pada bagian yang salah (_typo_).
