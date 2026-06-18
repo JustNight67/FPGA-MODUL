@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tutorial BAB 5 on ACSL | Field Programmable Gate Array</title>
-    <link>http://localhost:1313/docs/babfive/</link>
+    <link>https://fpga.acsl.my.id/docs/babfive/</link>
     <description>Recent content in Tutorial BAB 5 on ACSL | Field Programmable Gate Array</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Mon, 20 Oct 2025 18:05:10 +0700</lastBuildDate>
-    <atom:link href="http://localhost:1313/docs/babfive/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://fpga.acsl.my.id/docs/babfive/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>SEVEN SEGMENT</title>
-      <link>http://localhost:1313/docs/babfive/sevensegment/</link>
+      <link>https://fpga.acsl.my.id/docs/babfive/sevensegment/</link>
       <pubDate>Mon, 13 Oct 2025 12:31:10 +0700</pubDate>
-      <guid>http://localhost:1313/docs/babfive/sevensegment/</guid>
+      <guid>https://fpga.acsl.my.id/docs/babfive/sevensegment/</guid>
       <description>&lt;p&gt;Pada bab ini, praktikan akan mempelajari konsep dasar seven segment display dan push button sebagai elemen penting dalam sistem digital. Seven segment display digunakan untuk menampilkan informasi numerik atau karakter, sementara push button berfungsi sebagai input sederhana yang dapat mengubah kondisi atau memicu suatu aksi pada rangkaian. Asisten praktikum atau praktikan diharapkan membaca tujuan dan persyaratan bab ini agar praktikum dapat berjalan sesuai dengan prosedur.&lt;/p&gt;&#xA;&lt;h2 id=&#34;tujuan&#34;&gt;Tujuan &lt;a href=&#34;#tujuan&#34; class=&#34;anchor&#34; aria-hidden=&#34;true&#34;&gt;&lt;i class=&#34;material-icons align-middle&#34;&gt;link&lt;/i&gt;&lt;/a&gt;&lt;/h2&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;table class=&#34;table table-striped&#34;&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;&lt;strong&gt;TUJUAN&lt;/strong&gt;&lt;/th&gt;&#xA;          &lt;th&gt;&lt;strong&gt;PENJELASAN&lt;/strong&gt;&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;&lt;strong&gt;Memahami Konsep Seven Segment Display&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td&gt;&lt;p style=&#34;text-align: justify;&gt;&#34;&gt;Praktikan diharapkan dapat memahami cara kerja dan fungsi seven segment display dalam menampilkan angka atau karakter, serta bagaimana mengontrol tiap segmen secara digital.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Komponen Seven Segment</title>
-      <link>http://localhost:1313/docs/babfive/komponensevensegment/</link>
+      <link>https://fpga.acsl.my.id/docs/babfive/komponensevensegment/</link>
       <pubDate>Mon, 13 Oct 2025 12:31:10 +0700</pubDate>
-      <guid>http://localhost:1313/docs/babfive/komponensevensegment/</guid>
+      <guid>https://fpga.acsl.my.id/docs/babfive/komponensevensegment/</guid>
       <description>&lt;p&gt;Dalam konteks Seven Segment yang dikendalikan oleh FPGA, terdapat komponen-komponen Seven Segment yang memainkan peran penting dalam mengatur tampilan angka dan waktu.&lt;/p&gt;&#xA;&lt;h2 id=&#34;clock&#34;&gt;Clock &lt;a href=&#34;#clock&#34; class=&#34;anchor&#34; aria-hidden=&#34;true&#34;&gt;&lt;i class=&#34;material-icons align-middle&#34;&gt;link&lt;/i&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Clock merupakan sinyal listrik yang berupa suatu denyutan dan berfungsi untuk mengkoordinasikan atau mensikronkan setiap aksi-aksi atau proses- proses yang dilakukan oleh setiap komponen di dalam perangkat elektronika. Bagaimana proses A, bagaimana proses B, bagaimana proses C, dan seterusnya. Oleh karena itu, nilai clock sangat penting agar perangkat elektronika dapat berfungsi sebagaimana mestinya. Ada beberapa istilah penting yang berkaitan dengan clock, yaitu :&lt;/p&gt;</description>
     </item>
     <item>
       <title>Push Button</title>
-      <link>http://localhost:1313/docs/babfive/pushbutton/</link>
+      <link>https://fpga.acsl.my.id/docs/babfive/pushbutton/</link>
       <pubDate>Mon, 13 Oct 2025 12:31:10 +0700</pubDate>
-      <guid>http://localhost:1313/docs/babfive/pushbutton/</guid>
+      <guid>https://fpga.acsl.my.id/docs/babfive/pushbutton/</guid>
       <description>&lt;p&gt;Push Button adalah saklar yang beroperasi dengan cara ditekan dan bisa melakukan dua fungsi berbeda, yaitu menutup sirkuit bila ditekan atau justru membuka sirkuit bila ditekan. Jika tekanan dilepaskan atau terjadi tekanan berikutnya maka akan menormalkan kembali tombol ke posisi semula. Secara umum, komponen ini memiliki cara kerja yang sama dengan switch, namun hanya berbeda pada cara pengoperasiannya saja.&lt;/p&gt;&#xA;&lt;p&gt;Komponen ini juga berfungsi sebagai pemberi sinyal pada rangkaian listrik ketika bagian knopnya ditekan, dan alat ini akan bekerja sehingga kontak- kontaknya akan terhubung untuk jenis Normally Open (NO) dan akan terlepas untuk jenis Normally Close (NC). Pada board FPGA Nexys 4 dan A7 terdapat total 7 push button, namun yang dapat digunakan hanya 5. Karena dua push button yang berwarna merah sudah memiliki fungsi sendiri yaitu untuk CPU reset.&lt;/p&gt;</description>
     </item>
   </channel>
