@@ -13,7 +13,7 @@ hero:
       mobile: "gradient-web.webp"
 
   badge:
-    text: build v12.5.2025
+    text: build v12.5.2026
     color: primary # primary, secondary, success, danger, warning, info, light, dark
     pill: false # boolean
     soft: true # boolean
