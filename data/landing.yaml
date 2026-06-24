@@ -44,6 +44,30 @@ hero:
 
   info: "**Copyright** @2026 Advanced Computer System Laboratory."
 
+  # Modul FPGA
+
+ModulMcs:
+  enable: true
+  weight: 15
+  template: modul fpga
+
+  title: Buku Praktikum Field Programmable Gate Array
+  subtitle: Pengembangan modul dalam bentuk web digital menjadi solusi dokumentasi modern yang dinamis, responsif, dan mudah diakses kapan pun. Namun kita tak luput yang namanya dokumentasi praktikum secara fisik.
+
+  items:
+    # - title: "Buku Praktikum"
+    #   publishDate:  "publish v23.6.2026"
+    #   description: "Walaupun dokumentasi secara web tapi buku ini dirancang untuk mendampingi kegiatan **praktikum** secara **offline**. Di dalamnya berisi panduan langkah demi langkah, serta ruang catatan untuk hasil praktikum sama **persis** dengan yang di **website**. Buku ini sangatlah cocok untuk digunakan selama sesi praktikum secara offline."
+    #   buttonText: "Download"
+    #   buttonLink: "/link-download-praktikum"
+    
+    - title: "Buku Laporan"
+      publishDate:  "publish v24.6.2026"
+      imagePath:  "/images/screenshots/lp_modul.webp"
+      description: "Setiap kegiatan praktikum di Universitas Gunadarma, **Laporan Pendahuluan (LP)** dan **Laporan Akhir (LA)** merupakan memegang peran yang **sangat penting** dalam dokumentasi dan evaluasi atas proses hasil yang telah dicapai pada praktikum. Silahkan download dan print Modul ini."
+      buttonText: "Download"
+      buttonLink: "https://drive.google.com/file/d/1GSQQAVUYMMvD-MTlDsHIA6Ua5CmoTeka/view?usp=sharing"
+
 # Feature Grid
 featureGrid:
   enable: true

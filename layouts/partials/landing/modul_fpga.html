@@ -1,0 +1,57 @@
+{{ $sectionTitle := .Scratch.Get "sectionTitle" }}
+{{ with (index .Site.Data.landing $sectionTitle) }}
+{{ if eq .enable true }}
+<section id="{{ $sectionTitle }}" class="mt-100 mt-60">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-10 text-center mb-5">
+                <h3 class="fw-bold mb-2">{{ .title }}</h3>
+                {{ with .subtitle }}
+                    <p class="text-muted para-desc mx-auto mb-0">{{ . | markdownify }}</p>
+                {{ end }}
+            </div>
+        </div>
+        
+        <div class="row justify-content-center">
+            {{ range .items }}
+            <div class="col-lg-8 mt-2">
+                <div class="card border-0 shadow-lg p-5 h-100 d-flex flex-row align-items-center position-relative" 
+                     style="border-radius: 25px; background: linear-gradient(135deg, #059d3f 10%, #fafafa 50%);">
+                    
+                    {{ with .publishDate }}
+                    <div class="position-absolute top-0 end-0 m-4">
+                        <span class="badge bg-light text-primary border px-3 py-1 fw-bold" style="font-size: 0.7rem; border-radius: 5px;">
+                            {{ . }}
+                        </span>
+                    </div>
+                    {{ end }}
+
+                    <div class="me-5" style="flex: 0 0 35%;">
+                        {{ $img := resources.Get .imagePath }}
+                        {{ if $img }}
+                            <img src="{{ $img.RelPermalink }}" alt="{{ .title }}" class="img-fluid rounded-4 shadow-sm">
+                        {{ else }}
+                            <p style="font-size: 10px;">Gagal memuat: {{ .imagePath }}</p>  
+                        {{ end }}
+                    </div>
+                    
+                    <div class="flex-grow-1">
+                        <h2 class="title fw-bold mb-4" style="font-size: 2.2rem;">{{ .title }}</h2>
+                        <p class="text-muted mb-4" style="font-size: 1.1rem; line-height: 1.6;">{{ .description | markdownify }}</p>
+                        
+                        <div class="d-flex justify-content-start">
+                            <a href="{{ .buttonLink }}" 
+                               class="btn btn-primary shadow px-5 py-3"
+                               style="border-radius: 2px; font-weight: 700; font-size: 1.2rem; background-color: #047857; border: none; min-width: 400px;">
+                               {{ .buttonText }}
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</section>
+{{ end }}
+{{ end }}
