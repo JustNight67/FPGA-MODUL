@@ -46,7 +46,7 @@ hero:
 
   # Modul FPGA
 
-ModulMcs:
+ModulFpga:
   enable: true
   weight: 15
   template: modul fpga
