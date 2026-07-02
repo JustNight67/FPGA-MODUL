@@ -68,6 +68,22 @@ ModulFpga:
       buttonText: "Download"
       buttonLink: "https://drive.google.com/file/d/1GSQQAVUYMMvD-MTlDsHIA6Ua5CmoTeka/view?usp=sharing"
 
+# Aplikasi FPGA
+
+AplikasiFpga:
+  enable: true
+  weight: 16
+  template: aplikasi fpga
+
+  title: Aplikasi Praktikum Field Programmable Gate Array
+  subtitle: Pengembangan modul dalam bentuk web digital menjadi solusi dokumentasi modern yang dinamis, responsif, dan mudah diakses kapan pun. Namun kita tak luput yang namanya dokumentasi praktikum secara fisik.
+
+  items:
+    - title: "Vivado Design"
+      imagePath:  "/images/screenshots/vivado_icon.webp"
+      buttonText: "Download"
+      buttonLink: "https://account.amd.com/en/forms/downloads/xef.html?filename=Xilinx_Unified_2020.2_1118_1232.tar.gz"
+
 # Feature Grid
 featureGrid:
   enable: true
